@@ -1,0 +1,27 @@
+{
+  "name": "v-motion",
+  "version": "0.0.1",
+  "description": "Motion desing for interfaces",
+  "main": "index.js",
+  "scripts": {
+    "build:vue": "rollup -c && rollup -c --environment MINIFY",
+    "dev": "rollup -c --watch",
+    "build:style": "sass --no-charset ./src/styles/index.sass | node ./build/print-banner.js > dist/ds-library.css && cleancss -o dist/ds-library.min.css dist/ds-library.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pandemozhno/vue-motion.git"
+  },
+  "keywords": [
+    "vue",
+    "motion",
+    "design",
+    "directives"
+  ],
+  "author": "Brilenko A.V.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pandemozhno/vue-motion/issues"
+  },
+  "homepage": "https://github.com/pandemozhno/vue-motion#readme"
+}
