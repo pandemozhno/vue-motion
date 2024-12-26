@@ -1,6 +1,8 @@
 بِسْمِ اللهِ في أَوَّلِهِ وَآخِـرِه‎
 ## vue-motion 
 
+Гипотеза: Моушн дизайн в вебе необходим. Это логичное продолжение UI и необходимость для UX
+
 # Motion Design for Web & Mobile Apps UX :star_struck:
 
 ## Elements
